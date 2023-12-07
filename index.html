@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Matematik Segitiga</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+<body>
+    <header id="navigation-bar">
+            <h2 id="logo">MATEMATIKAN</h2>
+        </header>
+        <a href="#inputForm">Luas Segitiga</a>
+        <a href="#inputForm2">Keliling Segitiga</a>
+        
+    </header>
+            <h2 id="soal-luas-segitiga">Luas Segitiga</h2>
+            <img src="img/segitiga.png">
+    
+            <h5 id="rumus-luas-segitiga">Rumus Luas Segitiga yaitu:</h5>
+            <h5 id="rumusnya-luas-segitiga">L=1/2xaxt</h5>
+            <h5 id="rumus-luas-segitiga">L= Luas</h5>
+            <h5 id="rumus-luas-segitiga">a= Panjang Alas</h5>
+            <h5 id="rumus-luas-segitiga">T= Tinggi</h5>
+            <hr>
+            <h3> HITUNG LUAS SEGITIGA </h3>
+    <section class="inputSection">
+       
+            <form id="inputForm">
+            <label for="alas">Alas</label>
+            <input type="number" id="alas" name="alas" placeholder="Input Nilai Alas">
+            <label for="tinggi">Tinggi</label>
+            <input type="number" id="tinggi" name="tinggi" placeholder="Input Nilai Tinggi">
+            <p id="hasilLuas">Nilai Luas: </p>
+        <button class="hitung-btn btn" type="button" onclick="luasSegitiga();">Hitung</button>
+        <button class="reset-btn btn" type="button" onclick="ResetForm();">Reset</button>
+        </form>
+        
+    </section>
+</header>
+
+<h2 id="soal-luas-segitiga2">Keliling Segitiga</h2>
+        
+<img src="img/segitiga.png">
+
+<h5 id="rumus-luas-segitiga">Rumus Keliling Segitiga yaitu:</h5>
+<h5 id="rumusnya-luas-segitiga">K=S1+S2+S3</h5>
+<h5 id="rumus-luas-segitiga">K= Keliling</h5>
+<h5 id="rumus-luas-segitiga">S1= Sisi A</h5>
+<h5 id="rumus-luas-segitiga">S2= Sisi B</h5>
+<h5 id="rumus-luas-segitiga">S3= Sisi C</h5>
+<hr>
+
+
+<h3> HITUNG KELILING SEGITIGA </h3>
+<section class="inputSection">
+    <form id="inputForm2">
+    <label for="sisi1">Sisi A</label>
+    <input type="number" id="sisi1" name="sisi1" placeholder="Input Nilai A">
+    <label for="sisi2">Sisi B</label>
+    <input type="number" id="sisi2" name="sisi1" placeholder="Input Nilai B">
+    <label for="sisi3">Sisi C</label>
+    <input type="number" id="sisi3" name="sisi1" placeholder="Input Nilai C">
+    <p id="hasilKeliling">Nilai Keliling: </p>
+    <button class="hitung-btn btn" type="button" onclick="kelilingSegitiga();">Hitung</button>
+    <button class="reset-btn btn" type="button" onclick="ResetForm();">Reset</button>
+    </form>
+
+</section>
+    <script src="js/script.js"></script>
+</body>
+</html>
